@@ -67,7 +67,7 @@ function App() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-content">
           <div className="nav-brand">
-            <span className="brand-logo">🎯</span>
+            <img src="/logo.png" alt="AlfaZulu" className="nav-logo" />
             <span className="brand-name">{APP_CONFIG.APP_NAME}</span>
           </div>
           <div className="nav-links">
@@ -94,6 +94,10 @@ function App() {
                 <text x="50" y="65" textAnchor="middle" fill="url(#logoGradient)" fontSize="40" fontWeight="bold" fontFamily="Orbitron">AZ</text>
               </svg>
             </div>
+          </div>
+
+          <div className="logo-container reveal">
+            <img src="/logo.png" alt="AlfaZulu Logo" className="logo-image" />
           </div>
 
           <h1 className="reveal reveal-delay-1">
@@ -406,15 +410,10 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-links">
-            <a href={APP_CONFIG.GITHUB_URL} className="footer-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href={APP_CONFIG.TELEGRAM_URL} className="footer-link" target="_blank" rel="noopener noreferrer">Telegram</a>
             <a href={APP_CONFIG.WEBSITE_URL} className="footer-link">Web Principal</a>
           </div>
           <p className="footer-text">
             © {new Date().getFullYear()} {APP_CONFIG.APP_NAME}. Todos los derechos reservados.
-          </p>
-          <p className="footer-text">
-            Desarrollado con ❤️ por el equipo de {APP_CONFIG.APP_NAME}
           </p>
         </div>
       </footer>
