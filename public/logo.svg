@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF003C"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logoGradient)" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,0,60,0.3)" stroke-width="1"/>
+  <text x="50" y="62" text-anchor="middle" fill="url(#logoGradient)" font-size="36" font-weight="900" font-family="Arial Black, sans-serif" filter="url(#glow)">AZ</text>
+</svg>

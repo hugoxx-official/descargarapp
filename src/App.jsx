@@ -67,7 +67,7 @@ function App() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-content">
           <div className="nav-brand">
-            <img src="/logo.png" alt="AlfaZulu" className="nav-logo" />
+            <img src="/logo.svg" alt="AlfaZulu" className="nav-logo" />
             <span className="brand-name">{APP_CONFIG.APP_NAME}</span>
           </div>
           <div className="nav-links">
@@ -82,22 +82,7 @@ function App() {
       <header className="hero" id="home">
         <div className="hero-content">
           <div className="logo-container reveal">
-            <div className="logo">
-              <svg viewBox="0 0 100 100" width="100%" height="100%">
-                <defs>
-                  <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#FF003C"/>
-                    <stop offset="100%" stopColor="#FFD700"/>
-                  </linearGradient>
-                </defs>
-                <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logoGradient)" strokeWidth="3"/>
-                <text x="50" y="65" textAnchor="middle" fill="url(#logoGradient)" fontSize="40" fontWeight="bold" fontFamily="Orbitron">AZ</text>
-              </svg>
-            </div>
-          </div>
-
-          <div className="logo-container reveal">
-            <img src="/logo.png" alt="AlfaZulu Logo" className="logo-image" />
+            <img src="/logo.svg" alt="AlfaZulu Logo" className="logo-image" />
           </div>
 
           <h1 className="reveal reveal-delay-1">
