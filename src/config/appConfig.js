@@ -30,7 +30,7 @@ export const APP_CONFIG = {
   // Redes sociales / enlaces
   GITHUB_URL: 'https://github.com/hugoxx-official/alfazulu',
   TELEGRAM_URL: 'https://t.me/alfazulu',
-  WEBSITE_URL: 'https://alfazulu-production.up.railway.app',
+  WEBSITE_URL: 'https://app.alfazulu.pro',
 };
 
 // Features que se muestran en la landing
