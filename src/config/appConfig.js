@@ -3,7 +3,7 @@
 
 export const APP_CONFIG = {
   // URLs de descarga
-  ANDROID_APP_URL: 'https://docs.google.com/uc?export=download&id=1Xgae5IIMzg7mdJCt2aeh3H-KcVn3QSJE',
+  ANDROID_APP_URL: 'https://docs.google.com/uc?export=download&id=1FIy0M5SnnB8lS0g7ZT2SAPCycRvUSGLS',
   IOS_APP_URL: 'https://apps.apple.com/es/app/alfazulu/id-placeholder',
 
   // Estado de iOS: 'available' | 'coming-soon'
